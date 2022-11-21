@@ -107,10 +107,10 @@ Material:
     - __dirty: 1
     m_Colors:
     - _Color: {r: 0.39607844, g: 0.039215676, b: 0.28192875, a: 1}
-    - _DeepColor: {r: 0, g: 0.21681418, b: 0.46226418, a: 0}
+    - _DeepColor: {r: 0.019105233, g: 0.13332143, b: 0.26415092, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 0.3066038, g: 1, b: 0.9145772, a: 0}
-    - _ShallowColor: {r: 0, g: 0.08052492, b: 1, a: 0}
+    - _ShallowColor: {r: 0.024504516, g: 0.06832455, b: 0.5566038, a: 0}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
