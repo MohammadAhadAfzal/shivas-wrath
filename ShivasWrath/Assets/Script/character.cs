@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 
 public class Character : MonoBehaviour
+
+    
 {
     [Header("Controls")]
     public float playerSpeed = 5.0f;
