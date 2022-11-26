@@ -75,42 +75,42 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _Depth: 0.53
-    - _DepthStrength: 0.47
+    - _Depth: 1
+    - _DepthStrength: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FoamAmount: 1.5
-    - _FoamNoiseScale: 150
-    - _FoamPower: 0.5
+    - _FoamAmount: 1.8
+    - _FoamNoiseScale: 1000
+    - _FoamPower: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
-    - _Mettalic: 1
+    - _Mettalic: 0.64
     - _Mode: 0
-    - _NormalMapWavesSpeed: 0.1
-    - _NormalMapsWavesSize: 5
+    - _NormalMapWavesSpeed: 0
+    - _NormalMapsWavesSize: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Shininess: 0.078125
     - _SmoothnessTextureChannel: 0
-    - _Smootness: 1
+    - _Smootness: 0.61
     - _SpecularHighlights: 1
     - _SquashAmount: 1
     - _SrcBlend: 1
-    - _TessValue: 4.4
+    - _TessValue: 25.5
     - _UVSec: 0
-    - _WaveAmplitude: 0.42
-    - _WaveSpeed: 0.93
-    - _WaveTile: 0.371
+    - _WaveAmplitude: 0.33
+    - _WaveSpeed: 0.39
+    - _WaveTile: 0.12
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
     - _Color: {r: 0.39607844, g: 0.039215676, b: 0.28192875, a: 1}
-    - _DeepColor: {r: 0.019105233, g: 0.13332143, b: 0.26415092, a: 0}
+    - _DeepColor: {r: 1, g: 0, b: 0.01960802, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 0.3066038, g: 1, b: 0.9145772, a: 0}
-    - _ShallowColor: {r: 0.024504516, g: 0.06832455, b: 0.5566038, a: 0}
+    - _FoamColor: {r: 0.9528302, g: 0.031604875, b: 0, a: 0}
+    - _ShallowColor: {r: 1, g: 0, b: 0.019607844, a: 0}
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
