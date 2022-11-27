@@ -4810,36 +4810,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 22a3fd8d3e59a1149bdcd775c0e87241, type: 3}
---- !u!114 &752000166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148962438141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7ce51977245c1a46bb0c1d71e33c284, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerSpeed: 2
-  crouchSpeed: 2
-  sprintSpeed: 5
-  jumpHeight: 0.3
-  gravityMultiplier: 5
-  rotationSpeed: 2
-  crouchColliderHeight: 1.35
-  speedDampTime: 0.1
-  velocityDampTime: 0.091
-  rotationDampTime: 0.051
-  airControl: 0.231
-  gravityValue: -9.81
-  normalColliderHeight: 0
-  controller: {fileID: 0}
-  playerInput: {fileID: 0}
-  cameraTransform: {fileID: 0}
-  animator: {fileID: 0}
-  playerVelocity: {x: 0, y: 0, z: 0}
 --- !u!143 &752000167
 CharacterController:
   m_ObjectHideFlags: 0
@@ -4887,7 +4857,7 @@ MonoBehaviour:
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 402165458}
 --- !u!1001 &754249387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10711,7 +10681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4519282631701236, guid: 386f40ad68cdd3c4fbcb471ef2d93772, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4519282631701236, guid: 386f40ad68cdd3c4fbcb471ef2d93772, type: 3}
       propertyPath: m_LocalScale.x
@@ -12384,8 +12354,8 @@ GameObject:
   - component: {fileID: 543450652684874055}
   - component: {fileID: 752000168}
   - component: {fileID: 752000167}
-  - component: {fileID: 752000166}
   - component: {fileID: 5866666021028473661}
+  - component: {fileID: 5866666021028473662}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13696,6 +13666,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5866666021028473662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148962438141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ce51977245c1a46bb0c1d71e33c284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeed: 2
+  crouchSpeed: 2
+  sprintSpeed: 7
+  jumpHeight: 0.8
+  gravityMultiplier: 2
+  rotationSpeed: 5
+  crouchColliderHeight: 1.35
+  speedDampTime: 0.1
+  velocityDampTime: 0
+  rotationDampTime: 0.2
+  airControl: 0.5
+  gravityValue: -9.81
+  normalColliderHeight: 0
+  controller: {fileID: 0}
+  playerInput: {fileID: 0}
+  cameraTransform: {fileID: 0}
+  animator: {fileID: 0}
+  playerVelocity: {x: 0, y: 0, z: 0}
 --- !u!4 &5901452234783810500
 Transform:
   m_ObjectHideFlags: 0
